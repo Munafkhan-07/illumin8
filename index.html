@@ -1,0 +1,1026 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>illumin8 | Luxury Curtains, Blinds & Somfy Smart Automation</title>
+  <meta name="description"
+    content="illumin8 crafts bespoke luxury curtains, roman blinds, roller blinds, vertical blinds, venetian blinds, and Fifty TM blinds with whisper-quiet Somfy motorization.">
+  <meta name="theme-color" content="#ffffff">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="/src/style.css">
+</head>
+
+<body>
+
+  <!-- Announcement Top Bar -->
+  <aside class="top-bar" aria-label="Announcement Bar">
+    <div class="container top-bar-inner">
+      <div class="top-bar-ticker">
+        <span class="ticker-badge">Atelier News</span>
+        <span class="ticker-text">Complimentary Fabric Swatch Pack with Express Dispatch • Discover Somfy Smart Blinds
+          2026 • 10-Year Craftsmanship Guarantee</span>
+      </div>
+      <div class="top-bar-actions">
+        <a href="#contact-us" class="top-bar-link">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+            <circle cx="12" cy="10" r="3" />
+          </svg>
+          London Mayfair Atelier
+        </a>
+        <button id="topbar-employee-btn" class="employee-portal-btn" type="button" aria-haspopup="dialog">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" />
+            <circle cx="12" cy="7" r="4" />
+          </svg>
+          Employee Login
+        </button>
+      </div>
+    </div>
+  </aside>
+
+  <!-- Sticky Luxury Header -->
+  <header class="site-header" id="site-header">
+    <div class="container header-container">
+
+      <!-- illumin8 Brand Logo -->
+      <a href="#" class="brand-logo-container" aria-label="illumin8 blinds & curtains home">
+        <div class="brand-logo">
+          <span class="logo-main">illumin</span><span class="logo-number">8</span>
+        </div>
+        <span class="logo-tagline">blinds & curtains</span>
+      </a>
+
+      <!-- Desktop Mega-Menu Navigation -->
+      <nav class="main-nav" aria-label="Main Navigation">
+
+        <!-- Products Dropdown -->
+        <div class="nav-item has-dropdown">
+          <a href="#products-section" class="nav-link">
+            Products
+            <svg class="nav-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="6 9 12 15 18 9" />
+            </svg>
+          </a>
+          <div class="mega-menu">
+            <div class="mega-menu-grid cols-3" id="mega-products-grid">
+              <!-- Dynamically populated -->
+            </div>
+          </div>
+        </div>
+
+        <!-- Collections Dropdown -->
+        <div class="nav-item has-dropdown">
+          <a href="#collections-section" class="nav-link">
+            Collections
+            <svg class="nav-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="6 9 12 15 18 9" />
+            </svg>
+          </a>
+          <div class="mega-menu">
+            <div class="mega-menu-grid cols-4" id="mega-collections-grid">
+              <!-- Dynamically populated -->
+            </div>
+          </div>
+        </div>
+
+        <!-- Brands Dropdown -->
+        <div class="nav-item has-dropdown">
+          <a href="#brands-section" class="nav-link">
+            Brands
+            <svg class="nav-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="6 9 12 15 18 9" />
+            </svg>
+          </a>
+          <div class="mega-menu">
+            <div class="mega-menu-grid cols-4" id="mega-brands-grid">
+              <!-- Dynamically populated -->
+            </div>
+          </div>
+        </div>
+
+        <!-- Services Dropdown -->
+        <div class="nav-item has-dropdown">
+          <a href="#services-section" class="nav-link">
+            Services
+            <svg class="nav-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="6 9 12 15 18 9" />
+            </svg>
+          </a>
+          <div class="mega-menu">
+            <div class="mega-menu-grid cols-2" id="mega-services-grid">
+              <!-- Dynamically populated -->
+            </div>
+          </div>
+        </div>
+
+        <!-- Smart Home -->
+        <div class="nav-item">
+          <a href="#smart-home-section" class="nav-link">Smart Home</a>
+        </div>
+
+        <!-- About Us Dropdown -->
+        <div class="nav-item has-dropdown">
+          <a href="#about-section" class="nav-link">
+            About Us
+            <svg class="nav-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="6 9 12 15 18 9" />
+            </svg>
+          </a>
+          <div class="mega-menu" style="min-width: 320px;">
+            <div class="mega-menu-grid" style="grid-template-columns: 1fr;">
+              <a href="#about-brand" class="mega-card" data-about-tab="heritage">
+                <span class="mega-card-title">Brand Heritage</span>
+                <span class="mega-card-desc">The story of illumin8 artisanal light tailoring</span>
+              </a>
+              <a href="#lookbooks" class="mega-card" data-about-tab="lookbooks">
+                <span class="mega-card-title">Our Look Books</span>
+                <span class="mega-card-desc">Download & browse SS26 & AW26 digital catalogues</span>
+              </a>
+              <a href="#esg" class="mega-card" data-about-tab="esg">
+                <span class="mega-card-title">ESG & Sustainability</span>
+                <span class="mega-card-desc">Recycled marine yarns, FSC wood & circular ateliers</span>
+              </a>
+              <a href="#child-safety" class="mega-card" data-about-tab="childSafety">
+                <span class="mega-card-title">Child Safety ("Make It Safe")</span>
+                <span class="mega-card-desc">100% cordless, motorized & breakaway safe mechanics</span>
+              </a>
+              <a href="#news" class="mega-card" data-about-tab="news">
+                <span class="mega-card-title">News & Trends</span>
+                <span class="mega-card-desc">Interior styling insights and optical acoustic reports</span>
+              </a>
+              <a href="#contact-us" class="mega-card" data-about-tab="contact">
+                <span class="mega-card-title">Contact Us & Consultations</span>
+                <span class="mega-card-desc">Mayfair showroom, virtual CAD and trade visits</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </nav>
+
+      <!-- Action Buttons -->
+      <div class="header-actions">
+        <!-- Search Trigger -->
+        <button id="search-trigger-btn" class="icon-btn" aria-label="Search website" title="Search">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="11" cy="11" r="8" />
+            <line x1="21" y1="21" x2="16.65" y2="16.65" />
+          </svg>
+        </button>
+
+        <!-- Swatch Bag Trigger -->
+        <button id="swatch-drawer-btn" class="icon-btn" aria-label="Fabric Swatch Bag" title="Swatch Bag">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z" />
+            <line x1="3" y1="6" x2="21" y2="6" />
+            <path d="M16 10a4 4 0 0 1-8 0" />
+          </svg>
+          <span class="badge-count" id="swatch-counter">0</span>
+        </button>
+
+        <!-- Book Consultation CTA -->
+        <button id="book-consultation-btn" class="btn btn-primary" type="button">
+          Book Consultation
+        </button>
+
+        <!-- Mobile Nav Toggle -->
+        <button id="mobile-toggle-btn" class="mobile-nav-toggle" aria-label="Toggle Navigation">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="3" y1="12" x2="21" y2="12" />
+            <line x1="3" y1="6" x2="21" y2="6" />
+            <line x1="3" y1="18" x2="21" y2="18" />
+          </svg>
+        </button>
+      </div>
+
+    </div>
+  </header>
+
+  <!-- Mobile Drawer Menu -->
+  <aside class="mobile-menu-drawer" id="mobile-menu-drawer" style="display: none;">
+    <!-- Filled dynamically -->
+  </aside>
+
+  <!-- Hero Section with Interactive Light Simulator -->
+  <section class="hero-section" id="hero-section">
+    <div class="hero-ambient-canvas" id="hero-ambient-canvas"></div>
+    <div class="container hero-grid">
+
+      <div class="hero-content">
+        <div class="hero-badge">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="5" />
+            <line x1="12" y1="1" x2="12" y2="3" />
+            <line x1="12" y1="21" x2="12" y2="23" />
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64" />
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78" />
+            <line x1="1" y1="12" x2="3" y2="12" />
+            <line x1="21" y1="12" x2="23" y2="12" />
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36" />
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22" />
+          </svg>
+          British Architectural Window Treatments
+        </div>
+        <h1 class="hero-headline">
+          Sculpting Light, <br><span class="em">Defining Space.</span>
+        </h1>
+        <p class="hero-desc">
+          At <strong class="text-gold">illumin8</strong>, we unite the fluid softness of bespoke drapery with the
+          architectural precision of motorized blinds. Crafted with artisan hand-finishing and powered by silent Somfy
+          intelligence.
+        </p>
+        <div class="hero-actions">
+          <a href="#products-section" class="btn btn-primary">Explore Products</a>
+          <a href="#collections-section" class="btn btn-outline">Curated Collections</a>
+          <button id="hero-order-swatches-btn" class="btn btn-white" type="button">Order Free Swatches</button>
+        </div>
+
+        <!-- Stats Row -->
+        <div class="hero-stats-row">
+          <div class="stat-item">
+            <div class="stat-num">85k+</div>
+            <div class="stat-label">Bespoke Fitments</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-num">3,200+</div>
+            <div class="stat-label">Designer Fabrics</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-num">10 Yrs</div>
+            <div class="stat-label">Craft Guarantee</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-num">100%</div>
+            <div class="stat-label">Cordless Safe</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Interactive Light Simulator Window Sandbox -->
+      <div class="hero-visualizer-card">
+        <div class="visualizer-header">
+          <div class="visualizer-title">
+            <span class="live-dot"></span>
+            Light Simulator Room
+          </div>
+          <div class="light-modes-toggle" id="light-mode-selector">
+            <button class="light-mode-btn" data-mode="morning" type="button">Morning</button>
+            <button class="light-mode-btn active" data-mode="midday" type="button">Midday</button>
+            <button class="light-mode-btn" data-mode="dusk" type="button">Golden Dusk</button>
+            <button class="light-mode-btn" data-mode="night" type="button">Night Blackout</button>
+          </div>
+        </div>
+
+        <div class="window-stage" id="simulator-stage"
+          style="background-image: url('https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=800&q=80');">
+          <div class="window-glass" id="simulator-glass"></div>
+          <!-- Left and right drapery panels -->
+          <div class="window-curtains-left" id="curtain-left"></div>
+          <div class="window-curtains-right" id="curtain-right"></div>
+          <!-- Virtual 50TM slats -->
+          <div class="virtual-fifty-slats" id="simulator-slats">
+            <!-- Repeated slats -->
+            <div class="virtual-slat"></div>
+            <div class="virtual-slat"></div>
+            <div class="virtual-slat"></div>
+            <div class="virtual-slat"></div>
+            <div class="virtual-slat"></div>
+            <div class="virtual-slat"></div>
+            <div class="virtual-slat"></div>
+            <div class="virtual-slat"></div>
+            <div class="virtual-slat"></div>
+            <div class="virtual-slat"></div>
+          </div>
+        </div>
+
+        <div class="visualizer-controls">
+          <div class="control-row">
+            <span>Drapery Cascade: <strong id="curtain-status-text" class="text-gold">Half Sheer</strong></span>
+            <span class="somfy-live-indicator">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M5 12.55a11 11 0 0 1 14.08 0" />
+                <path d="M1.42 9a16 16 0 0 1 21.16 0" />
+                <circle cx="12" cy="20" r="1" />
+              </svg>
+              Somfy RTS Synced
+            </span>
+          </div>
+          <div style="display: flex; gap: 8px;">
+            <button id="toggle-curtain-btn" class="btn btn-outline" style="flex: 1; padding: 8px; font-size: 0.76rem;"
+              type="button">Toggle Curtains</button>
+            <button id="toggle-slats-btn" class="btn btn-outline" style="flex: 1; padding: 8px; font-size: 0.76rem;"
+              type="button">Tilt Fifty TM Slats</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- About illumin8 & Brand Heritage Section -->
+  <section class="about-brand-section" id="about-brand">
+    <div class="container about-brand-grid">
+      <div class="about-brand-img-wrap">
+        <img src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=1200&q=80"
+          alt="illumin8 Atelier Luxury Window Treatment" class="about-main-img">
+        <div class="about-floating-card">
+          <div class="floating-card-title">Hand-Tailored in Britain</div>
+          <p class="floating-card-desc">Every pleat, hem, and 50mm slat is calibrated by master craftspeople using
+            renewable European timber and certified organic yarns.</p>
+        </div>
+      </div>
+      <div class="about-brand-content">
+        <div class="section-label">Brand Philosophy</div>
+        <h2 class="section-title">The Art & Engineering of <span class="gradient-gold-text">illumin8</span></h2>
+        <p>
+          At <strong>illumin8</strong>, we believe natural light is the most luxurious material of interior
+          architecture. Born from a profound reverence for bespoke tailoring and optical harmony, illumin8 crafts custom
+          curtains and precision blinds that elevate the emotional resonance of modern homes.
+        </p>
+        <p>
+          From the fluid drape of hand-weighted Belgian linen wave curtains to the architectural discipline of our
+          proprietary Fifty TM studio venetian blinds, every treatment is engineered to modulate daylight, acoustic
+          serenity, and privacy with effortless grace. With whisper-quiet Somfy motorization, your home intuitively
+          harmonizes with the sun from dawn until twilight.
+        </p>
+
+        <div class="about-pillars">
+          <div class="pillar-box">
+            <h4>Bespoke Ateliers</h4>
+            <p>Master tailors inspect every double-folded hem, seamless ultrasonic join, and weighted corner.</p>
+          </div>
+          <div class="pillar-box">
+            <h4>Optical Precision</h4>
+            <p>Engineered slat angles and solar openness factors reject glare while preserving skyline panoramas.</p>
+          </div>
+          <div class="pillar-box">
+            <h4>Somfy Integration</h4>
+            <p>Smart home connectivity with voice control, solar tracking, and whisper-quiet WireFree lithium motors.
+            </p>
+          </div>
+          <div class="pillar-box">
+            <h4>10-Year Guarantee</h4>
+            <p>Built for a lifetime of smooth operation with aerospace-grade internal cordage and aluminum headrails.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Products Section -->
+  <section class="products-section" id="products-section">
+    <div class="container">
+      <div class="section-label">Product Portfolio</div>
+      <h2 class="section-title">Mastercrafted Window Dressings</h2>
+      <p class="section-subtitle">
+        Explore our comprehensive collection of handcrafted curtains and precision blinds, each accompanied by technical
+        specifications, light ratings, and complimentary fabric swatches.
+      </p>
+
+      <!-- Products Filter Bar -->
+      <div class="products-filter-bar" id="products-filter-bar">
+        <button class="product-filter-btn active" data-filter="all" type="button">All Products (6)</button>
+        <button class="product-filter-btn" data-filter="curtains" type="button">Curtains</button>
+        <button class="product-filter-btn" data-filter="roman-blinds" type="button">Roman Blinds</button>
+        <button class="product-filter-btn" data-filter="roller-blinds" type="button">Roller Blinds</button>
+        <button class="product-filter-btn" data-filter="vertical-blinds" type="button">Vertical Blinds</button>
+        <button class="product-filter-btn" data-filter="venetian-blinds" type="button">Venetian Blinds</button>
+        <button class="product-filter-btn" data-filter="fifty-tm-blinds" type="button">Fifty TM Blinds</button>
+      </div>
+
+      <!-- Products Grid -->
+      <div class="products-grid" id="products-grid">
+        <!-- Rendered dynamically via src/main.js -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Collections Section -->
+  <section class="collections-section" id="collections-section">
+    <div class="container">
+      <div class="collections-slider-header">
+        <div>
+          <div class="section-label">Curated Ensembles</div>
+          <h2 class="section-title">The illumin8 Collections</h2>
+          <p class="section-subtitle" style="margin-bottom: 0;">
+            Immerse yourself in our distinct fabric universes: from tactile organic linens to high-fashion metallic
+            jacquards.
+          </p>
+        </div>
+      </div>
+
+      <div class="collections-grid" id="collections-grid">
+        <!-- Rendered dynamically -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Designer Brands Section -->
+  <section class="brands-section" id="brands-section">
+    <div class="container">
+      <div class="section-label">Exclusive Partnerships</div>
+      <h2 class="section-title">Renowned Design Houses</h2>
+      <p class="section-subtitle">
+        illumin8 is proud to partner with Britain and the world's most venerated design archives, bringing iconic
+        prints, botanical heritage, and regal motifs to our custom window treatments.
+      </p>
+
+      <div class="brands-grid" id="brands-grid">
+        <!-- Rendered dynamically -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section class="services-section" id="services-section">
+    <div class="container">
+      <div class="section-label">Bespoke & Trade Solutions</div>
+      <h2 class="section-title">Our Specialized Services</h2>
+      <p class="section-subtitle">
+        Empowering interior designers, architects, retail showrooms, and discerning homeowners with comprehensive fabric
+        sampling, turnkey marketing, and cloud platforms.
+      </p>
+
+      <div class="services-grid" id="services-grid">
+        <!-- Rendered dynamically -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Smart Home & Somfy Section -->
+  <section class="smart-home-section" id="smart-home-section">
+    <div class="container smart-home-grid">
+
+      <div class="smart-home-content">
+        <div class="section-label">Intelligent Living</div>
+        <h2 class="section-title">Blinds & <span class="gradient-gold-text">Somfy</span> Automation</h2>
+        <p>
+          Experience the pinnacle of motorized convenience. illumin8 integrates world-renowned Somfy motors directly
+          inside our curtain tracks, roman headers, roller tubes, and Fifty TM headrails for seamless voice, app, and
+          sensor-driven light orchestration.
+        </p>
+
+        <div class="smart-features-grid">
+          <div class="smart-feature-box">
+            <h4>TaHoma Smart Hub</h4>
+            <p>Connect and orchestrate up to 200 motorized window treatments with custom morning and evening scenes.</p>
+          </div>
+          <div class="smart-feature-box">
+            <h4>Voice & Smart Ecosystem</h4>
+            <p>Full compatibility with Apple HomeKit, Amazon Alexa, Google Assistant, Control4, and Crestron.</p>
+          </div>
+          <div class="smart-feature-box">
+            <h4>Solar Sun-Tracking</h4>
+            <p>Autonomous thermal sensors tilt slats or lower blackout rollers to reduce heat gain by up to 43%.</p>
+          </div>
+          <div class="smart-feature-box">
+            <h4>WireFree™ Solar Recharge</h4>
+            <p>Concealed rechargeable lithium-ion battery wands powered continuously by subtle photovoltaic sill cells.
+            </p>
+          </div>
+        </div>
+
+        <button id="smart-specs-modal-btn" class="btn btn-primary" type="button">View Somfy Technical
+          Specifications</button>
+      </div>
+
+      <!-- Interactive Somfy Remote & Motorized Window Sandbox -->
+      <div class="somfy-interactive-display">
+        <div class="somfy-motor-head">
+          <div class="somfy-badge-logo">
+            <span class="somfy-dot"></span>
+            somfy. Powered by illumin8
+          </div>
+          <span style="font-size: 0.72rem; color: #10b981; font-weight: 600;">TaHoma Switch Active</span>
+        </div>
+
+        <div class="virtual-window-frame">
+          <div class="virtual-skyline"></div>
+          <div class="somfy-motor-casing">
+            <span class="somfy-casing-label">SONESSE 30 WIREFREE RTS</span>
+            <span class="somfy-led"></span>
+          </div>
+          <!-- Animated Motorized Fabric Shade -->
+          <div class="motorized-fabric-drop" id="somfy-fabric-shade">
+            <div class="motorized-bottom-bar"></div>
+          </div>
+        </div>
+
+        <!-- Somfy Remote Controls -->
+        <div class="somfy-remote-panel" id="somfy-remote-controls">
+          <button class="remote-btn" data-blind-pos="open" type="button">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="18 15 12 9 6 15" />
+            </svg>
+            Raise 100%
+          </button>
+          <button class="remote-btn active" data-blind-pos="half" type="button">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <line x1="5" y1="12" x2="19" y2="12" />
+            </svg>
+            My Position (50%)
+          </button>
+          <button class="remote-btn" data-blind-pos="closed" type="button">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="6 9 12 15 18 9" />
+            </svg>
+            Close Blackout
+          </button>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- About Us Tabs Section (Look Books, ESG, Child Safety, News, Contact Us) -->
+  <section class="about-extra-section" id="about-section">
+    <div class="container">
+      <div class="section-label">Company & Social Commitment</div>
+      <h2 class="section-title">About illumin8 & Bespoke Client Concierge</h2>
+
+      <!-- Nav Tabs -->
+      <div class="tabs-nav" id="about-tabs-nav">
+        <button class="tab-btn active" data-tab="lookbooks" type="button">Our Look Books</button>
+        <button class="tab-btn" data-tab="esg" type="button">ESG & Sustainability</button>
+        <button class="tab-btn" data-tab="childSafety" type="button">Child Safety ("Make It Safe")</button>
+        <button class="tab-btn" data-tab="news" type="button">News & Trends</button>
+        <button class="tab-btn" data-tab="contact" type="button">Contact Us & Showrooms</button>
+      </div>
+
+      <!-- Tab 1: Look Books -->
+      <div class="tab-content active" id="tab-lookbooks">
+        <div class="lookbooks-grid" id="lookbooks-grid">
+          <!-- Populated dynamically -->
+        </div>
+      </div>
+
+      <!-- Tab 2: ESG -->
+      <div class="tab-content" id="tab-esg">
+        <div class="esg-grid">
+          <div class="esg-cards-list">
+            <div class="esg-card-item">
+              <h4>100% FSC-Certified Hardwood</h4>
+              <p>All basswood and timber components for our Fifty TM and Venetian collections originate from sustainably
+                managed North American forests with replanting guarantees.</p>
+            </div>
+            <div class="esg-card-item">
+              <h4>Recycled Marine SEAQUAL® Yarns</h4>
+              <p>Over 60% of our sheer and roller weaves repurpose ocean plastics, reducing landfill accumulation
+                without compromising silk-like tactile softness.</p>
+            </div>
+            <div class="esg-card-item">
+              <h4>Zero-Landfill Packaging & Local Craft</h4>
+              <p>Dispatched in water-activated biodegradable cartons. 90%+ of production remains in our British
+                ateliers, minimizing air transport emissions.</p>
+            </div>
+            <div class="esg-card-item">
+              <h4>Passive Solar Energy Conservation</h4>
+              <p>Thermal lining fabrics reflect heat outward in peak summer and retain ambient indoor warmth in winter,
+                dramatically trimming household HVAC carbon footprint.</p>
+            </div>
+          </div>
+          <div>
+            <img src="https://images.unsplash.com/photo-1473448912268-2022ce9509d8?auto=format&fit=crop&w=1000&q=80"
+              alt="Sustainable forestry and organic textiles"
+              style="border-radius: var(--radius-md); width: 100%; height: 440px; object-fit: cover; border: 1px solid var(--bg-dark-border);">
+          </div>
+        </div>
+      </div>
+
+      <!-- Tab 3: Child Safety -->
+      <div class="tab-content" id="tab-childSafety">
+        <div class="child-safety-banner">
+          <div>
+            <span class="ticker-badge" style="background: #059669; margin-bottom: 12px; display: inline-block;">Make It
+              Safe Certified</span>
+            <h3
+              style="font-family: var(--font-serif); font-size: 2rem; color: var(--text-primary); margin-bottom: 12px;">
+              Uncompromising Child & Pet Safety</h3>
+            <p style="color: var(--text-secondary); font-size: 0.95rem; line-height: 1.6;">
+              illumin8 strictly conforms to and exceeds European and British Child Safety Standard BS EN 13120. We lead
+              the industry in eliminating hazardous dangling cords through motorized automation, rigid wands, and
+              breakaway mechanisms.
+            </p>
+            <div class="safety-points">
+              <div class="safety-point-box">
+                <h5>100% Cordless Motorization</h5>
+                <p>Somfy wire-free battery drives completely eliminate exposed strings, chains, and hazard loops.</p>
+              </div>
+              <div class="safety-point-box">
+                <h5>Safe-Wand Mechanics</h5>
+                <p>Rigid ergonomic wands allow smooth tilting and drawing with zero accessible tension strings.</p>
+              </div>
+              <div class="safety-point-box">
+                <h5>Breakaway Tension Cleats</h5>
+                <p>Where chains are requested, breakaway connectors snap safely open under minimal accidental pressure.
+                </p>
+              </div>
+              <div class="safety-point-box">
+                <h5>Spring-Assist Cordless Glide</h5>
+                <p>Effortlessly raise and lower blinds with a light fingertip push on the weighted architectural bottom
+                  rail.</p>
+              </div>
+            </div>
+          </div>
+          <div>
+            <img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=800&q=80"
+              alt="Safe modern family bedroom with cordless roman blinds"
+              style="width: 100%; height: 420px; object-fit: cover; border-radius: var(--radius-md);">
+          </div>
+        </div>
+      </div>
+
+      <!-- Tab 4: News -->
+      <div class="tab-content" id="tab-news">
+        <div class="news-grid" id="news-grid">
+          <!-- Populated dynamically -->
+        </div>
+      </div>
+
+      <!-- Tab 5: Contact Us -->
+      <div class="tab-content" id="tab-contact">
+        <div class="contact-grid">
+          <div class="contact-info-panel">
+            <h3 style="font-family: var(--font-serif); font-size: 2rem; color: var(--text-primary);">Visit Our Mayfair
+              Atelier</h3>
+            <p style="color: var(--text-secondary); font-size: 0.95rem;">
+              Experience the tactile luxury of over 3,200 fabrics and test our motorized Somfy working displays with an
+              illumin8 senior interior consultant.
+            </p>
+            <div class="contact-item">
+              <div class="contact-item-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+                  <circle cx="12" cy="10" r="3" />
+                </svg>
+              </div>
+              <div class="contact-item-text">
+                <h5>London Flagship Atelier</h5>
+                <p>14 St. James's Square, Mayfair, London, SW1Y 4LG</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-item-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path
+                    d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
+                </svg>
+              </div>
+              <div class="contact-item-text">
+                <h5>Direct Concierge Telephone</h5>
+                <p>+44 (0) 20 7946 0888</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-item-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+                  <polyline points="22,6 12,13 2,6" />
+                </svg>
+              </div>
+              <div class="contact-item-text">
+                <h5>Bespoke & Trade Inquiries</h5>
+                <p>concierge@illumin8blinds.com</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-form-panel">
+            <h4
+              style="font-family: var(--font-serif); font-size: 1.5rem; color: var(--text-primary); margin-bottom: 20px;">
+              Book a Design Consultation</h4>
+            <form id="contact-form">
+              <div class="form-group">
+                <label class="form-label" for="contact-name">Full Name</label>
+                <input class="form-control" type="text" id="contact-name" placeholder="Lady Eleanor Montgomery"
+                  required>
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="contact-email">Email Address</label>
+                <input class="form-control" type="email" id="contact-email" placeholder="eleanor@domain.com" required>
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="contact-phone">Phone Number</label>
+                <input class="form-control" type="tel" id="contact-phone" placeholder="+44 7911 123456">
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="contact-product">Interested Window Dressing</label>
+                <select class="form-control" id="contact-product">
+                  <option value="Curtains">Bespoke Curtains & Wave Drapes</option>
+                  <option value="Roman Blinds">Architectural Roman Blinds</option>
+                  <option value="Fifty TM Blinds">Signature Fifty TM 50mm Studio Blinds</option>
+                  <option value="Roller Blinds">Precision Roller Blinds</option>
+                  <option value="Venetian Blinds">Basswood / Aluminium Venetian Blinds</option>
+                  <option value="Somfy Smart Automation">Somfy Smart Home Motorization Suite</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="contact-message">Project Notes & Room Details</label>
+                <textarea class="form-control" id="contact-message" rows="3"
+                  placeholder="Approximate window dimensions, room orientation, fabric preferences..."></textarea>
+              </div>
+              <button class="btn btn-primary" type="submit" style="width: 100%;">Submit Consultation Request</button>
+            </form>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Site Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <a href="#" class="brand-logo-container">
+            <div class="brand-logo">
+              <span class="logo-main">illumin</span><span class="logo-number">8</span>
+            </div>
+            <span class="logo-tagline">blinds & curtains</span>
+          </a>
+          <p class="footer-col-desc">
+            Bespoke British curtains, artisanal blinds, and Somfy motorization. Hand-crafted to transform natural light
+            into architectural luxury.
+          </p>
+        </div>
+
+        <div>
+          <div class="footer-heading">Products</div>
+          <ul class="footer-links">
+            <li><a href="#products-section" data-product-filter="curtains">Curtains</a></li>
+            <li><a href="#products-section" data-product-filter="roman-blinds">Roman Blinds</a></li>
+            <li><a href="#products-section" data-product-filter="roller-blinds">Roller Blinds</a></li>
+            <li><a href="#products-section" data-product-filter="vertical-blinds">Vertical Blinds</a></li>
+            <li><a href="#products-section" data-product-filter="venetian-blinds">Venetian Blinds</a></li>
+            <li><a href="#products-section" data-product-filter="fifty-tm-blinds">Fifty TM Blinds</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <div class="footer-heading">Collections</div>
+          <ul class="footer-links">
+            <li><a href="#collections-section">See My Collection</a></li>
+            <li><a href="#collections-section">Simply Softs</a></li>
+            <li><a href="#collections-section">Simply Rollers</a></li>
+            <li><a href="#collections-section">Edit Roller</a></li>
+            <li><a href="#collections-section">Edit Verticals</a></li>
+            <li><a href="#collections-section">Edit 50TM</a></li>
+            <li><a href="#collections-section">Edit Soft Vol. 2</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <div class="footer-heading">Brands & Heritage</div>
+          <ul class="footer-links">
+            <li><a href="#brands-section">Laura Ashley</a></li>
+            <li><a href="#brands-section">William Morris at Home</a></li>
+            <li><a href="#brands-section">Emily Bond</a></li>
+            <li><a href="#brands-section">Orla Kiely</a></li>
+            <li><a href="#brands-section">Sophie Allport</a></li>
+            <li><a href="#brands-section">Historic Royal Palaces</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <div class="footer-heading">Company & Staff</div>
+          <ul class="footer-links">
+            <li><a href="#about-brand">About illumin8</a></li>
+            <li><a href="#smart-home-section">Somfy Smart Home</a></li>
+            <li><a href="#lookbooks" class="footer-tab-trigger" data-tab="lookbooks">Our Look Books</a></li>
+            <li><a href="#esg" class="footer-tab-trigger" data-tab="esg">ESG Sustainability</a></li>
+            <li><a href="#child-safety" class="footer-tab-trigger" data-tab="childSafety">Child Safety Standards</a>
+            </li>
+            <li><a href="#" id="footer-employee-portal-btn" style="color: var(--gold-light); font-weight: 600;">Employee
+                Portal Login</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          &copy; 2026 illumin8 Blinds & Curtains Ltd. All Rights Reserved. Hand-Tailored in Great Britain.
+        </div>
+        <div class="footer-bottom-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms & Conditions</a>
+          <a href="#">BS EN 13120 Compliance</a>
+          <a href="#">Cookie Preferences</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==========================================================================
+       MODALS & DRAWERS
+       ========================================================================== -->
+
+  <!-- Employee Login & Dashboard Modal -->
+  <div class="modal-overlay" id="employee-modal" role="dialog" aria-modal="true" aria-labelledby="emp-modal-title">
+    <div class="modal-dialog" id="employee-dialog">
+      <button class="modal-close-btn" id="employee-close-btn" aria-label="Close Modal">&times;</button>
+
+      <!-- Login View -->
+      <div id="employee-login-view">
+        <div class="employee-login-header">
+          <div class="employee-badge-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
+              <circle cx="8.5" cy="7" r="4" />
+              <line x1="20" y1="8" x2="20" y2="14" />
+              <line x1="23" y1="11" x2="17" y2="11" />
+            </svg>
+          </div>
+          <h3 id="emp-modal-title"
+            style="font-family: var(--font-serif); font-size: 1.8rem; color: var(--text-primary);">illumin8 Staff Portal
+          </h3>
+          <p style="font-size: 0.8rem; color: var(--text-muted); margin-top: 4px;">Internal Atelier & Technical
+            Consultant Login</p>
+        </div>
+
+        <div class="employee-login-body">
+          <div class="demo-credentials-box">
+            <div class="demo-text">
+              <strong>Demo Credentials:</strong><br>
+              <code>staff@illumin8.com</code> | <code>illumin8staff2026</code>
+            </div>
+            <button id="autofill-demo-btn" class="demo-autofill-btn" type="button">Autofill</button>
+          </div>
+
+          <form id="employee-login-form">
+            <div class="form-group">
+              <label class="form-label" for="emp-username">Employee Email / Staff ID</label>
+              <input class="form-control" type="text" id="emp-username" placeholder="staff@illumin8.com" required>
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="emp-password">Password</label>
+              <input class="form-control" type="password" id="emp-password" placeholder="••••••••••••" required>
+            </div>
+            <div
+              style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; font-size: 0.75rem; color: var(--text-muted);">
+              <label style="display: flex; align-items: center; gap: 6px; cursor: pointer;">
+                <input type="checkbox" checked> Remember Atelier Device
+              </label>
+              <a href="#" style="color: var(--gold-light);">Reset Password</a>
+            </div>
+            <button class="btn btn-primary" type="submit" style="width: 100%;">Log In to illumin8 Portal</button>
+          </form>
+        </div>
+      </div>
+
+      <!-- Authenticated Employee Dashboard View -->
+      <div id="employee-dashboard-view" style="display: none;">
+        <div class="employee-dashboard-content">
+          <div class="emp-dashboard-top">
+            <div class="emp-profile">
+              <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=200&q=80"
+                alt="Elena Vance" class="emp-avatar">
+              <div class="emp-info">
+                <h4>Elena Vance</h4>
+                <p>Senior Design & Technical Consultant • Mayfair Atelier</p>
+              </div>
+            </div>
+            <button id="emp-logout-btn" class="btn btn-outline" style="padding: 6px 14px; font-size: 0.75rem;"
+              type="button">Log Out</button>
+          </div>
+
+          <!-- Quick Stats -->
+          <div class="emp-stats-grid">
+            <div class="emp-stat-card">
+              <div class="val">18</div>
+              <div class="lbl">Active Atelier Orders</div>
+            </div>
+            <div class="emp-stat-card">
+              <div class="val">6</div>
+              <div class="lbl">Laser Measurements Due</div>
+            </div>
+            <div class="emp-stat-card">
+              <div class="val">42</div>
+              <div class="lbl">Swatches Dispatched</div>
+            </div>
+            <div class="emp-stat-card">
+              <div class="val text-gold">2</div>
+              <div class="lbl">Stock Reorder Alerts</div>
+            </div>
+          </div>
+
+          <!-- Active Orders Table -->
+          <h5
+            style="font-family: var(--font-serif); font-size: 1.15rem; color: var(--text-primary); margin-bottom: 8px;">
+            Current Bespoke Client Commissions</h5>
+          <table class="emp-table">
+            <thead>
+              <tr>
+                <th>Order ID</th>
+                <th>Client</th>
+                <th>Specification</th>
+                <th>Value</th>
+                <th>Status</th>
+              </tr>
+            </thead>
+            <tbody id="emp-orders-table-body">
+              <!-- Rendered via JS -->
+            </tbody>
+          </table>
+
+          <!-- Warehouse Inventory Table -->
+          <h5
+            style="font-family: var(--font-serif); font-size: 1.15rem; color: var(--text-primary); margin: 24px 0 8px;">
+            Warehouse Material & Motor Reserves</h5>
+          <table class="emp-table">
+            <thead>
+              <tr>
+                <th>Component / Material</th>
+                <th>Current Reserve</th>
+                <th>State</th>
+              </tr>
+            </thead>
+            <tbody id="emp-stock-table-body">
+              <!-- Rendered via JS -->
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Product / Item Detail Modal -->
+  <div class="modal-overlay" id="product-detail-modal" role="dialog" aria-modal="true">
+    <div class="modal-dialog wide-dialog" id="product-modal-dialog">
+      <button class="modal-close-btn" id="product-modal-close-btn">&times;</button>
+      <div id="product-modal-body" style="padding: 36px; max-height: 85vh; overflow-y: auto;">
+        <!-- Filled dynamically -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Swatch Bag Drawer -->
+  <div class="drawer-overlay" id="drawer-overlay"></div>
+  <aside class="swatch-drawer" id="swatch-drawer" aria-label="Complimentary Swatch Bag">
+    <div class="drawer-header">
+      <div>
+        <h4 style="font-family: var(--font-serif); font-size: 1.4rem; color: var(--text-primary);">Your Swatch Bag</h4>
+        <p style="font-size: 0.75rem; color: var(--gold-light);">Complimentary Luxury Fabric Samples</p>
+      </div>
+      <button class="modal-close-btn" id="drawer-close-btn" style="position: static;">&times;</button>
+    </div>
+    <div class="drawer-body" id="drawer-body">
+      <!-- Swatch items -->
+      <div id="empty-swatch-message"
+        style="text-align: center; padding: 40px 10px; color: var(--text-muted); font-size: 0.88rem;">
+        Your swatch bag is currently empty.<br>
+        Browse any product or collection to add free fabric feelers!
+      </div>
+      <div id="swatch-items-container"></div>
+    </div>
+    <div class="drawer-footer">
+      <div
+        style="display: flex; justify-content: space-between; margin-bottom: 14px; font-size: 0.82rem; color: var(--text-secondary);">
+        <span>Dispatch:</span>
+        <span style="color: #10b981; font-weight: 600;">Complimentary 1st Class</span>
+      </div>
+      <button id="dispatch-swatches-btn" class="btn btn-primary" style="width: 100%;" type="button">Request Swatch Pack
+        Delivery</button>
+    </div>
+  </aside>
+
+  <!-- Live Global Search Modal -->
+  <div class="modal-overlay" id="search-modal" role="dialog" aria-modal="true">
+    <div class="search-modal-dialog">
+      <button class="modal-close-btn" id="search-close-btn">&times;</button>
+      <div class="search-input-wrap">
+        <svg class="search-icon-pos" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+          stroke-width="2">
+          <circle cx="11" cy="11" r="8" />
+          <line x1="21" y1="21" x2="16.65" y2="16.65" />
+        </svg>
+        <input type="text" id="global-search-input"
+          placeholder="Search curtains, roman blinds, fifty tm, Laura Ashley, Somfy...">
+      </div>
+      <div class="search-results-list" id="search-results-list">
+        <div style="color: var(--text-muted); font-size: 0.82rem; padding: 12px; text-align: center;">
+          Type to search across all products, collections, designer brands, and services.
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification Container -->
+  <div class="toast-container" id="toast-container"></div>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+
+</html>

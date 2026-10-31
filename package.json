@@ -1,0 +1,18 @@
+{
+  "name": "illumin8",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "keywords": ["illumin8", "blinds", "curtains", "interior-design", "somfy-smart-blinds"],
+  "author": "illumin8 Blinds & Curtains",
+  "license": "ISC",
+  "devDependencies": {
+    "vite": "^8.3.5"
+  }
+}
